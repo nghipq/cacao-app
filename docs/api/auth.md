@@ -9,6 +9,18 @@ ___
 |:---------------------|:-----------------------------------|:------------|
 | POST /auth/register  | Create new user account            | Public      | 
       
+## Request
+
+| Params               | Type              |
+|:---------------------|:------------------|
+| username             | string            |
+|:---------------------|:------------------|
+| accountname          | string            |
+|:---------------------|:------------------|
+| password             | string            |
+|:---------------------|:------------------|
+| password2            | string            |
+
 
 ## Responses
 **application/json** *object*
